@@ -45,13 +45,13 @@ src/
 
 1. **Clone the repository:**
 
-`git clone https://github.com/your-username/redux-todo-backend.git` 
+`git clone https://github.com/Deepakgauttam/To-Do-list-redux.git` 
 Go to the backend project directory.
 `cd redux-todo-backend`
 
 
 Install dependencies:
-`npm install`
+`yarn install`
 
 
 🛠 Setup Environment
@@ -72,7 +72,7 @@ Generate Prisma Client:
 `npx prisma generate`
 
 ▶️ Running the App
-`npm run start:dev`
+`yarn run start:dev`
 
 The app will start on: `http://localhost:3000`
 

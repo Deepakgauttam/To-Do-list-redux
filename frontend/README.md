@@ -35,7 +35,7 @@ src/
 
 ## 📦 Installation
 
-`git clone https://github.com/yourusername/redux-todo-frontend.git`
+`git clone https://github.com/Deepakgauttam/To-Do-list-redux.git`
 Go to the frontend project directory.
 `cd redux-todo-frontend`
 
