@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background: #f7f5fa;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: center;
+}
+
+.todo-container h2 {
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  padding: 0.5rem;
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  background-color: #764ba2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-item {
+  background: #fff;
+  padding: 0.75rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item .actions button {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+}
